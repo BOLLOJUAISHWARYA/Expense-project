@@ -18,3 +18,9 @@ echo 7 - "# - $#"
 echo 8 - # - $#
 
 echo
+
+sample() {
+    echo Functon no of Arguments - $#
+    return
+    echo Function Input - $*
+}
