@@ -24,3 +24,5 @@ sample() {
     return
     echo Function Input - $*
 }
+
+sample hello world
